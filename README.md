@@ -1,2 +1,2 @@
-# bhb-react
-Believers Hymn Book React App
+# bhb-data
+Believers Hymn Book hymns in JSON
