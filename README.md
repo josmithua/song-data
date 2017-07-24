@@ -6,8 +6,9 @@ Believers Hymn Book hymn data in JSON format.
 Song object properties:
 * id (integer)
 * title (string)
-* tuneName (string)
+* author (string)
 * meter (string)
+* tuneName (string)
 * verses (2D string array)
 * chorus (string array)
 * addedChorus (string array)
@@ -18,8 +19,9 @@ Example of song object:
 {
     "id": 1,
     "title": "Song title",
-    "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
+    "author": "Song author",
     "meter": "8.7.8.7.D.",
+    "tuneName": "Deerhurst Lux Eoi Abbot's Leigh",
     "verses": [
       [
         "Verse 1, Line 1",
