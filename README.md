@@ -1,7 +1,13 @@
-# bhb-data
-Believers Hymn Book hymn data in JSON format.
+# song-data
+Includes hymns from different hymn books in JSON format.
 
-**bhb_songs.json**: An array of song objects
+Hymn books currently include:
+* Believers Hymn Book
+* Sacred Songs for Singing Saints (also known as Songs of Thanksgiving & Praise)
+
+
+## Format description
+Each file is an array of song objects:
 
 Song object properties:
 * id (integer)
@@ -13,7 +19,7 @@ Song object properties:
 * chorus (string array)
 * addedChorus (string array)
 
-Example of song object:
+#### Example of a song object:
 
 ```
 {
